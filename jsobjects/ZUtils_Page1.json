@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "ZUtils",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tapi1: () => {\n\t\treturn Api1.run()\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Page1_ZUtils",
+  "deleted": false,
+  "gitSyncId": "624c2f30d8e6327410176909_624c2f57d8e6327410176919"
+}

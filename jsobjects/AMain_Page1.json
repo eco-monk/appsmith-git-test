@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "AMain",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tcallApi: () => {\n\t\treturn ZUtils.api1()\n\t\t.then(() => Api2.run())\n\t\t.then(() => showAlert(\"Done through utils\"))\n\t},\n\tcallApiManual: async () => {\n\t\treturn Api1.run()\n\t\t.then(() => Api2.run())\n\t\t.then(() => showAlert(\"Done directly\"))\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Page1_AMain",
+  "deleted": false,
+  "gitSyncId": "624c2f30d8e6327410176909_624c2f5bd8e632741017691f"
+}
